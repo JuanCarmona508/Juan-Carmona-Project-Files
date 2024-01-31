@@ -1,0 +1,474 @@
+#include <GL/gl.h>
+
+#include <GL/glu.h>
+
+#include <GL/glut.h>
+
+#include <stdlib.h>
+
+#include <math.h>
+
+const int screenHeight = 1024; // window height is 1024
+
+const int screenWidth = 1024; //window width is 1024
+
+//Juan Carmona
+
+
+
+//<<<<<<<<<<<<<<<<<<<<< Prototypes >>>>>>>>>>>>>>>>>>
+
+	void exit(int) ;
+
+//<<<<<<<<<<<<<<<<<<<<<<< myInit >>>>>>>>>>>>>>>>>>>>
+
+ void myInit(void)
+
+ {
+
+      glClearColor(1.0,1.0,1.0,0.0);       // set white background color
+        glColor3f(0.0f, 1.0f, 1.0f);          // set the drawing color 
+ 	glPointSize(4.0);		       // a ?dot? is 4 by 4 pixels
+ 	glLineWidth(4.0);		       // a ?dot? is 4 by 4 pixels
+	glEnable(GL_DEPTH_TEST);
+	glMatrixMode(GL_PROJECTION); 
+	glLoadIdentity();
+
+	gluPerspective(512, 1, -4, 2); // What I can see
+	glMatrixMode(GL_MODELVIEW);
+
+	glLoadIdentity();
+
+}
+
+//<<<<<<<<<<<<<<<<<<<<<<<< myDisplay >>>>>>>>>>>>>>>>>
+
+
+
+void ngon(int n){
+
+	float degree, vertx, verty, rotate, degToRad; 
+
+	rotate = 360.0/n; //Vertex rotation increment
+
+
+
+	degree = rotate/2 + 180;//Current degree of vertex (starts rotated to make object upright) 
+
+	degToRad = 180/3.14159; //Conversion factor from degrees to radians
+
+	glBegin(GL_POLYGON);
+
+	for(int i = 0; i < n; i++, degree += rotate)
+
+	{
+
+	vertx = 0.5 * sin(degree/degToRad); //next vertex's x coordinate 
+
+	verty = 0.5 * sin((90 - degree)/degToRad); //next vertex's y coordinate 
+
+	glVertex3f(vertx, verty, 0);
+
+	}
+
+	glEnd();
+
+}	
+
+void myTriangle(void) // Triangle
+
+{
+
+
+
+	glBegin(GL_POLYGON);
+
+	glVertex2f(-1.0, -1.0);          
+
+	glVertex2f(1.0, -1.0) ;          
+
+	glVertex2f(0.0, 1.0) ;       
+
+	glEnd();
+
+	glFlush();          // send all output to display 
+
+}
+
+void myPoint(void) // point at origin
+
+{
+
+
+
+  	glBegin(GL_POINTS);
+
+	glVertex2f(0.0, 0.0);       
+
+	glEnd();
+
+	glFlush();          // send all output to display 
+
+}
+
+void myLine(void) // line through origin
+
+{
+
+ 
+
+	glBegin(GL_LINE_STRIP);
+
+	glVertex2f(0.0, 1.0);       
+
+	glVertex2f(0.0, -1.0) ;        
+
+	glEnd();
+
+	glFlush();          // send all output to display 
+
+}
+
+void mySquare(void) // Square
+
+{
+
+
+
+	glBegin(GL_POLYGON);
+
+	glVertex2f(1.0, 1.0);  
+
+	glVertex2f(-1.0,  1.0) ;        
+
+	glVertex2f(-1.0, -1.0) ;       
+
+	glVertex2f(1.0, -1.0) ;          
+
+	glEnd();
+
+	glFlush();          // send all output to display 
+
+}
+
+void myOctagon(void) // Octogon
+
+{
+
+	
+
+	ngon(8);
+
+	glFlush();          // send all output to display 
+
+}
+
+void myCircle(void) // Circle
+
+{
+
+	//glClear(GL_COLOR_BUFFER_BIT);     // clear the screen 
+
+
+
+	glBegin(GL_POLYGON);
+
+	for(float x = 0.0; x <= 2*3.14159; x += (2*3.14159)/40){ // 40 sided polygon
+
+		glVertex2f(2*cos(x),2*sin(x));
+
+	}
+
+	glEnd();
+
+	glFlush();          // send all output to display 
+
+}
+
+void myCube(void) // cube
+
+{
+
+
+
+    // rotate cube so that it is not parallel with any of the axis planes 
+
+	glRotatef(30.0, 0, 1, 0); 
+
+	glRotatef(30.0, 1, 0, 1); 
+
+ 
+
+ 
+
+	glBegin(GL_QUADS); 
+
+    // front(z = 1 plane) 
+
+	glColor4f(1.0, 1.0, 1.0, 1); 
+
+ 	glVertex3f(1, -1, 1); 
+
+	glVertex3f(1, 1, 1); 
+
+	glVertex3f(-1, 1, 1); 
+
+	glVertex3f(-1, -1, 1); 
+
+ 
+
+ 
+
+    //bottom(y = -1 plane) 
+
+	glColor4f(0, 1, 0, 1); 
+
+	glVertex3f(1, -1, 1); 
+
+	glVertex3f(-1, -1, 1); 
+
+	glVertex3f(-1, -1, -1); 
+
+	glVertex3f(1, -1, -1); 
+
+ 
+
+ 
+
+    // top(y = 1 plane) 
+
+	glColor4f(1, 0, 0, 1); 
+
+	glVertex3f(1, 1, -1); 
+
+	glVertex3f(-1, 1, -1); 
+
+	glVertex3f(-1, 1, 1);  
+
+	glVertex3f(1, 1, 1); 
+
+ 
+
+ 
+
+    // back(z = -1 plane) 
+
+	glColor4f(1, 1, 0, 1); 
+
+	glVertex3f(1, -1, -1); 
+
+	glVertex3f(-1, -1, -1); 
+
+	glVertex3f(-1, 1, -1); 
+
+	glVertex3f(1, 1, -1); 
+
+ 
+
+    // right(x = 1 plane) 
+
+	glColor4f(0, 1, 1, 1); 
+
+	glVertex3f(1, 1, -1); 
+
+	glVertex3f(1, 1, 1); 
+
+	glVertex3f(1, -1, 1); 
+
+	glVertex3f(1, -1, -1); 
+
+ 
+
+	// left(x = -1 plane) 
+
+	glColor4f(1, 0, 1, 1); 
+
+	glVertex3f(-1, 1, 1); 
+
+	glVertex3f(-1, 1, -1); 
+
+	glVertex3f(-1, -1, -1); 
+
+	glVertex3f(-1, -1, 1); 
+
+ 
+
+	glEnd(); 
+
+
+
+	glFlush();          // send all output to display 
+
+}
+
+
+
+//<<<<<<<<<<<<<<<<<<<<<<<< myKeyboard >>>>>>>>>>>>>>
+
+void myKeyboard(unsigned char theKey, int mouseX, int mouseY)
+
+{
+
+	switch(theKey) // Key inputs for each individual shape function
+
+	{
+
+
+
+		case 'Q':
+
+		case 'q':
+
+			exit(-1); //terminate the program
+
+		default:
+
+		break; // do nothing
+
+	}
+
+}
+
+void myDisplay(){
+
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	glPushMatrix(); // saves identity matrix
+
+	gluLookAt(10.0, 10.0, 5.0,
+
+		  10.0, 10.0, 4.0,
+
+		  0.0, 1.0, 0.0); // set camera
+
+	
+
+	glViewport(10, 10, 512, 512);
+
+
+
+
+
+	
+	glPushMatrix();
+
+
+
+	glScalef(2.0, 3.0, 1.0); // octogon
+
+	glTranslatef(1.0, 1.5, 0);
+
+	glRotatef(30.0, 0.0, 0.0, 1.0);
+
+	myOctagon();
+
+
+
+	glPopMatrix(); // square
+
+	glPushMatrix();
+
+	glScalef(2.5, 2.5, 1);
+
+	glTranslatef(2.0, 6.0, 0);
+
+	glRotatef(-10.0, 0.0, 0.0, 1.0);
+
+	mySquare();
+
+
+
+	glPopMatrix(); // triangle
+
+	glPushMatrix();
+
+	glScalef(3, 3, 1);
+
+	glTranslatef(8.5,8,0.0);
+
+	glRotatef(10,0,0,1);
+
+	myTriangle();
+
+	
+
+	glPopMatrix(); // circle
+
+	glPushMatrix();
+
+	glScalef(2, 2.5, 1);
+
+	glTranslatef(6,3,0.0);
+
+	glRotatef(60.0, 0,0,1);
+
+	myCircle();
+
+
+
+	glPopMatrix(); // line
+
+	glPushMatrix();
+
+	glScalef(1.5, 1.5, 1);
+
+	glTranslatef(13,10,0.0);
+
+	glRotatef(20,0,0,1);
+
+	myLine();
+
+	
+
+	glPopMatrix(); // point
+
+	glPushMatrix();
+
+	glScalef(5, 5, 1);
+
+	glTranslatef(1,2,0.0);
+
+	myPoint();
+
+	
+
+	glPopMatrix(); // cube
+
+	glPushMatrix();
+
+	glScalef(0.25, 0.25, 0.25);
+	glTranslatef(10, 5, 1.0);
+	myCube();
+	glTranslatef(5,5,-3.0);
+	glRotatef(45, 1,1,1);
+	myCube();
+	glPopMatrix();// To prevent gluMainLoop from performing constant transformations
+	glPopMatrix();
+
+}
+
+//<<<<<<<<<<<<<<<<<<<<<<<< main >>>>>>>>>>>>>>>>>>>>>>
+
+int	 main(int argc, char** argv)
+
+{
+
+	glutInit(&argc, argv);          // initialize the toolkit
+
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA | GLUT_DEPTH); // set display mode
+
+	glutInitWindowSize(1024,1024);     // set window size
+
+
+
+	glutCreateWindow("Assignment 2 Juan Carmona") ; // open the screen window 
+
+	glutDisplayFunc(myDisplay);     // register redraw function
+
+        glutKeyboardFunc(myKeyboard); // register the keyboard action function
+
+	myInit();                   
+
+	glutMainLoop(); 		     // go into a perpetual loop
+
+}

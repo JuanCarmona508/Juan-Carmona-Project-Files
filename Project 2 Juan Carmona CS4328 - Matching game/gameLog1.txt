@@ -1,0 +1,359 @@
+PLAYER 2: hand A
+PLAYER 2: draws K
+PLAYER 2: discards K at random
+PLAYER 2: hand A
+DECK: 8 9 5 5 5 A 4 7 K 10 Q 8 Q 4 5 10 3 4 J J 10 4 7 8 7 3 Q 2 6 J 3 J Q 9 6 A 8 10 9 K A 2 K 2 2 K 
+PLAYER 3: hand 6
+PLAYER 3: draws 8
+PLAYER 3: discards 6 at random
+PLAYER 3: hand 8
+DECK: 9 5 5 5 A 4 7 K 10 Q 8 Q 4 5 10 3 4 J J 10 4 7 8 7 3 Q 2 6 J 3 J Q 9 6 A 8 10 9 K A 2 K 2 2 K 6 
+PLAYER 4: hand 6
+PLAYER 4: draws 9
+PLAYER 4: hand (6,9) <> Target card is 9
+PLAYER 4: wins round 1
+PLAYER 5: lost round 1
+PLAYER 6: lost round 1
+PLAYER 2: lost round 1
+PLAYER 3: lost round 1
+PLAYER 1: Round ends
+PLAYER 3: hand 9
+PLAYER 3: draws K
+PLAYER 3: discards 9 at random
+PLAYER 3: hand K
+DECK: 8 4 9 J 7 J 3 Q 2 Q 6 5 2 10 7 A 9 5 J 8 6 K 8 K 3 2 10 A Q 9 8 10 7 6 4 7 2 4 5 3 A 3 Q K 5 9 
+PLAYER 4: hand A
+PLAYER 4: draws 8
+PLAYER 4: discards 8 at random
+PLAYER 4: hand A
+DECK: 4 9 J 7 J 3 Q 2 Q 6 5 2 10 7 A 9 5 J 8 6 K 8 K 3 2 10 A Q 9 8 10 7 6 4 7 2 4 5 3 A 3 Q K 5 9 8 
+PLAYER 5: hand 6
+PLAYER 5: draws 4
+PLAYER 5: discards 6 at random
+PLAYER 5: hand 4
+DECK: 9 J 7 J 3 Q 2 Q 6 5 2 10 7 A 9 5 J 8 6 K 8 K 3 2 10 A Q 9 8 10 7 6 4 7 2 4 5 3 A 3 Q K 5 9 8 6 
+PLAYER 6: hand 10
+PLAYER 6: draws 9
+PLAYER 6: discards 10 at random
+PLAYER 6: hand 9
+DECK: J 7 J 3 Q 2 Q 6 5 2 10 7 A 9 5 J 8 6 K 8 K 3 2 10 A Q 9 8 10 7 6 4 7 2 4 5 3 A 3 Q K 5 9 8 6 10 
+PLAYER 1: hand 4
+PLAYER 1: draws J
+PLAYER 1: hand (4,J) <> Target card is J
+PLAYER 1: wins round 2
+PLAYER 3: lost round 2
+PLAYER 4: lost round 2
+PLAYER 5: lost round 2
+PLAYER 6: lost round 2
+PLAYER 2: Round ends
+PLAYER 4: hand 8
+PLAYER 4: draws 2
+PLAYER 4: discards 2 at random
+PLAYER 4: hand 8
+DECK: Q 9 2 K K 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 
+PLAYER 5: hand 8
+PLAYER 5: draws Q
+PLAYER 5: discards 8 at random
+PLAYER 5: hand Q
+DECK: 9 2 K K 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 
+PLAYER 6: hand 4
+PLAYER 6: draws 9
+PLAYER 6: discards 9 at random
+PLAYER 6: hand 4
+DECK: 2 K K 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 
+PLAYER 1: hand A
+PLAYER 1: draws 2
+PLAYER 1: discards A at random
+PLAYER 1: hand 2
+DECK: K K 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A 
+PLAYER 2: hand Q
+PLAYER 2: draws K
+PLAYER 2: discards Q at random
+PLAYER 2: hand K
+DECK: K 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 
+PLAYER 4: hand 8
+PLAYER 4: draws K
+PLAYER 4: discards 8 at random
+PLAYER 4: hand K
+DECK: 5 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 8 
+PLAYER 5: hand Q
+PLAYER 5: draws 5
+PLAYER 5: discards Q at random
+PLAYER 5: hand 5
+DECK: 3 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 8 Q 
+PLAYER 6: hand 4
+PLAYER 6: draws 3
+PLAYER 6: discards 4 at random
+PLAYER 6: hand 3
+DECK: 3 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 8 Q 4 
+PLAYER 1: hand 2
+PLAYER 1: draws 3
+PLAYER 1: discards 3 at random
+PLAYER 1: hand 2
+DECK: 3 J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 8 Q 4 3 
+PLAYER 2: hand K
+PLAYER 2: draws 3
+PLAYER 2: discards K at random
+PLAYER 2: hand 3
+DECK: J 7 K 10 10 4 5 9 3 7 8 4 J 7 7 A 6 2 10 6 5 5 8 6 6 2 Q 9 Q A 10 J A K 4 9 2 8 9 A Q 8 Q 4 3 K 
+PLAYER 4: hand K
+PLAYER 4: draws J
+PLAYER 4: hand (K,J) <> Target card is J
+PLAYER 4: wins round 3
+PLAYER 5: lost round 3
+PLAYER 6: lost round 3
+PLAYER 1: lost round 3
+PLAYER 2: lost round 3
+PLAYER 3: Round ends
+PLAYER 5: hand 3
+PLAYER 5: draws K
+PLAYER 5: discards K at random
+PLAYER 5: hand 3
+DECK: 9 5 7 J 2 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K 
+PLAYER 6: hand A
+PLAYER 6: draws 9
+PLAYER 6: discards A at random
+PLAYER 6: hand 9
+DECK: 5 7 J 2 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 
+PLAYER 1: hand 5
+PLAYER 1: draws 5
+PLAYER 1: discards 5 at random
+PLAYER 1: hand 5
+DECK: 7 J 2 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 
+PLAYER 2: hand 4
+PLAYER 2: draws 7
+PLAYER 2: discards 7 at random
+PLAYER 2: hand 4
+DECK: J 2 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 
+PLAYER 3: hand K
+PLAYER 3: draws J
+PLAYER 3: discards K at random
+PLAYER 3: hand J
+DECK: 2 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 
+PLAYER 5: hand 3
+PLAYER 5: draws 2
+PLAYER 5: discards 3 at random
+PLAYER 5: hand 2
+DECK: 10 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 
+PLAYER 6: hand 9
+PLAYER 6: draws 10
+PLAYER 6: discards 9 at random
+PLAYER 6: hand 10
+DECK: 9 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 
+PLAYER 1: hand 5
+PLAYER 1: draws 9
+PLAYER 1: discards 9 at random
+PLAYER 1: hand 5
+DECK: 6 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 
+PLAYER 2: hand 4
+PLAYER 2: draws 6
+PLAYER 2: discards 6 at random
+PLAYER 2: hand 4
+DECK: 3 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 
+PLAYER 3: hand J
+PLAYER 3: draws 3
+PLAYER 3: discards 3 at random
+PLAYER 3: hand J
+DECK: 10 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 
+PLAYER 5: hand 2
+PLAYER 5: draws 10
+PLAYER 5: discards 2 at random
+PLAYER 5: hand 10
+DECK: 4 A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 
+PLAYER 6: hand 10
+PLAYER 6: draws 4
+PLAYER 6: discards 10 at random
+PLAYER 6: hand 4
+DECK: A 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 10 
+PLAYER 1: hand 5
+PLAYER 1: draws A
+PLAYER 1: discards A at random
+PLAYER 1: hand 5
+DECK: 8 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 10 A 
+PLAYER 2: hand 4
+PLAYER 2: draws 8
+PLAYER 2: discards 4 at random
+PLAYER 2: hand 8
+DECK: 8 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 10 A 4 
+PLAYER 3: hand J
+PLAYER 3: draws 8
+PLAYER 3: discards J at random
+PLAYER 3: hand 8
+DECK: 9 Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 10 A 4 J 
+PLAYER 5: hand 10
+PLAYER 5: draws 9
+PLAYER 5: discards 9 at random
+PLAYER 5: hand 10
+DECK: Q 2 6 J A Q 6 A 5 3 7 10 5 7 8 4 4 J 2 6 9 J 3 8 K 2 7 K 10 Q K A 5 7 K 3 9 9 6 3 2 10 A 4 J 9 
+PLAYER 6: hand 4
+PLAYER 6: draws Q
+PLAYER 6: hand (4,Q) <> Target card is Q
+PLAYER 6: wins round 4
+PLAYER 1: lost round 4
+PLAYER 2: lost round 4
+PLAYER 3: lost round 4
+PLAYER 5: lost round 4
+PLAYER 4: Round ends
+PLAYER 6: hand K
+PLAYER 6: draws A
+PLAYER 6: discards K at random
+PLAYER 6: hand A
+DECK: K Q 4 10 3 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 
+PLAYER 1: hand 3
+PLAYER 1: draws K
+PLAYER 1: discards 3 at random
+PLAYER 1: hand K
+DECK: Q 4 10 3 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 
+PLAYER 2: hand 9
+PLAYER 2: draws Q
+PLAYER 2: discards 9 at random
+PLAYER 2: hand Q
+DECK: 4 10 3 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 
+PLAYER 3: hand 5
+PLAYER 3: draws 4
+PLAYER 3: discards 5 at random
+PLAYER 3: hand 4
+DECK: 10 3 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 
+PLAYER 4: hand A
+PLAYER 4: draws 10
+PLAYER 4: discards A at random
+PLAYER 4: hand 10
+DECK: 3 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A 
+PLAYER 6: hand A
+PLAYER 6: draws 3
+PLAYER 6: discards A at random
+PLAYER 6: hand 3
+DECK: 8 J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A 
+PLAYER 1: hand K
+PLAYER 1: draws 8
+PLAYER 1: discards K at random
+PLAYER 1: hand 8
+DECK: J 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K 
+PLAYER 2: hand Q
+PLAYER 2: draws J
+PLAYER 2: discards Q at random
+PLAYER 2: hand J
+DECK: 2 A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 
+PLAYER 3: hand 4
+PLAYER 3: draws 2
+PLAYER 3: discards 4 at random
+PLAYER 3: hand 2
+DECK: A 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 
+PLAYER 4: hand 10
+PLAYER 4: draws A
+PLAYER 4: discards A at random
+PLAYER 4: hand 10
+DECK: 2 A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 
+PLAYER 6: hand 3
+PLAYER 6: draws 2
+PLAYER 6: discards 2 at random
+PLAYER 6: hand 3
+DECK: A 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 
+PLAYER 1: hand 8
+PLAYER 1: draws A
+PLAYER 1: discards 8 at random
+PLAYER 1: hand A
+DECK: 6 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 
+PLAYER 2: hand J
+PLAYER 2: draws 6
+PLAYER 2: discards 6 at random
+PLAYER 2: hand J
+DECK: 10 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 
+PLAYER 3: hand 2
+PLAYER 3: draws 10
+PLAYER 3: discards 2 at random
+PLAYER 3: hand 10
+DECK: 10 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 
+PLAYER 4: hand 10
+PLAYER 4: draws 10
+PLAYER 4: discards 10 at random
+PLAYER 4: hand 10
+DECK: 3 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 
+PLAYER 6: hand 3
+PLAYER 6: draws 3
+PLAYER 6: discards 3 at random
+PLAYER 6: hand 3
+DECK: 6 K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 
+PLAYER 1: hand A
+PLAYER 1: draws 6
+PLAYER 1: discards A at random
+PLAYER 1: hand 6
+DECK: K 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A 
+PLAYER 2: hand J
+PLAYER 2: draws K
+PLAYER 2: discards J at random
+PLAYER 2: hand K
+DECK: 9 K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A J 
+PLAYER 3: hand 10
+PLAYER 3: draws 9
+PLAYER 3: discards 9 at random
+PLAYER 3: hand 10
+DECK: K 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A J 9 
+PLAYER 4: hand 10
+PLAYER 4: draws K
+PLAYER 4: discards K at random
+PLAYER 4: hand 10
+DECK: 5 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A J 9 K 
+PLAYER 6: hand 3
+PLAYER 6: draws 5
+PLAYER 6: discards 3 at random
+PLAYER 6: hand 5
+DECK: 5 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A J 9 K 3 
+PLAYER 1: hand 6
+PLAYER 1: draws 5
+PLAYER 1: discards 6 at random
+PLAYER 1: hand 5
+DECK: 7 5 Q 4 J Q 6 Q 6 8 2 9 8 2 7 8 10 9 J 4 3 J 7 4 K 3 9 5 A A K Q 4 A 2 8 6 2 10 3 A J 9 K 3 6 
+PLAYER 2: hand K
+PLAYER 2: draws 7
+PLAYER 2: hand (K,7) <> Target card is 7
+PLAYER 2: wins round 5
+PLAYER 3: lost round 5
+PLAYER 4: lost round 5
+PLAYER 6: lost round 5
+PLAYER 1: lost round 5
+PLAYER 5: Round ends
+PLAYER 1: hand 2
+PLAYER 1: draws K
+PLAYER 1: discards 2 at random
+PLAYER 1: hand K
+DECK: 3 7 5 3 Q Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 
+PLAYER 2: hand K
+PLAYER 2: draws 3
+PLAYER 2: discards 3 at random
+PLAYER 2: hand K
+DECK: 7 5 3 Q Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 
+PLAYER 3: hand 7
+PLAYER 3: draws 7
+PLAYER 3: discards 7 at random
+PLAYER 3: hand 7
+DECK: 5 3 Q Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 7 
+PLAYER 4: hand 9
+PLAYER 4: draws 5
+PLAYER 4: discards 5 at random
+PLAYER 4: hand 9
+DECK: 3 Q Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 7 5 
+PLAYER 5: hand 5
+PLAYER 5: draws 3
+PLAYER 5: discards 5 at random
+PLAYER 5: hand 3
+DECK: Q Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 7 5 5 
+PLAYER 1: hand K
+PLAYER 1: draws Q
+PLAYER 1: discards K at random
+PLAYER 1: hand Q
+DECK: Q J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 7 5 5 K 
+PLAYER 2: hand K
+PLAYER 2: draws Q
+PLAYER 2: discards Q at random
+PLAYER 2: hand K
+DECK: J A 4 9 3 10 2 9 6 A 3 J 2 6 10 4 6 K Q 8 4 7 A 4 A 9 5 Q 8 8 10 J K 2 10 7 5 8 6 2 3 7 5 5 K Q 
+PLAYER 3: hand 7
+PLAYER 3: draws J
+PLAYER 3: hand (7,J) <> Target card is J
+PLAYER 3: wins round 6
+PLAYER 4: lost round 6
+PLAYER 5: lost round 6
+PLAYER 1: lost round 6
+PLAYER 2: lost round 6
+PLAYER 6: Round ends
